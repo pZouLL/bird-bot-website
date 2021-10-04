@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <title>Bird Bot</title>
+    </head>
+
+    <style>
+        body {
+            background-color : #0b110c;
+            text-align : center
+        }
+    
+    </style>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="{{url_for('static', filename='bird.jpg')}}" width = 50px height = 50px/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/commands">Commands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/FAQ">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/blog">Blog</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <div style ='text-align : left ; padding-left : 200px;padding-right : 200px; color : white ; margin-top : 5%;'>
+            <h1 style = ' color : white ;'>Blog Posts</h1>
+            <p style = 'color : gray ; margin-bottom : 5%;'>Find All The Information About Updates</p>
+            <div style = 'background-color : #080c08 ; border : darkgoldenrod solid 1px ; border-radius :8px ; padding : 10px; padding-left: 50px ; padding-right : 50px; margin-bottom : 3%'>
+                <h2 style = 'padding : 0 ; margin:0'>Big Updates!</h2>
+                <p style = 'color : gray'>Written By pZouLL (04/10/21)</p>
+                <ul>
+                    <li>Created Website</li> 
+                    <li>Fixed More Minor Bugs</li>
+                    <li>Added Auto Join</li>
+                    <li>Added Auto DC</li>
+                </ul>
+            </div>
+            <div style = 'background-color : #080c08 ; border : darkgoldenrod solid 1px ; border-radius :8px ; padding : 10px; padding-left: 50px ; padding-right : 50px; margin-bottom : 3%'>
+                <h2 style = 'padding : 0 ; margin:0'>Big Updates!</h2>
+                <p style = 'color : gray'>Written By pZouLL (03/10/21)</p>
+                <ul>
+                    <li>Fixed Minor Bugs</li> 
+                    <li>Made Better Outputs</li> 
+                </ul>
+            </div>
+            <div style = 'background-color : #080c08 ; border : darkgoldenrod solid 1px ; border-radius :8px ; padding : 10px; padding-left: 50px ; padding-right : 50px; margin-bottom : 3%'>
+                <h2 style = 'padding : 0 ; margin:0'>Big Updates!</h2>
+                <p style = 'color : gray'>Written By pZouLL (28/9/21)</p>
+                <ul>
+                    <li>Added Queue</li>
+                    <li>Added Played Better Audio</li>  
+                </ul>
+            </div>
+            <div style = 'background-color : #080c08 ; border : darkgoldenrod solid 1px ; border-radius :8px ; padding : 10px; padding-left: 50px ; padding-right : 50px; margin-bottom : 3%'>
+                <h2 style = 'padding : 0 ; margin:0'>Big Updates!</h2>
+                <p style = 'color : gray'>Written By pZouLL (16/9/21)</p>
+                <ul>
+                    <li>Added Basic Commands</li>
+                    <li>Bot Created!!!!</li>  
+                </ul>
+            </div>
+
+        </div>
+        
+
+    </body>
+</html>
